@@ -1,0 +1,81 @@
+@media only screen and (max-width: 992px) {
+    .header-content-title{
+        font-size: 2.5rem ;
+    }
+    .header-content-caption{
+        font-size: 0.75rem;
+    }
+    .service-name{
+        font-size: 1.2rem;
+    }
+    .service-property{
+        font-size: 0.8rem;
+    }
+
+    
+}
+
+@media only screen and (max-width:768px){
+    .header-content-title{
+        font-size: 2.5rem ;
+    }
+    #menu-icon{
+        position: absolute;
+        top: 18px;
+        right: 19px;
+        display: block;
+        color: #fff;
+        z-index: 1000;
+    }
+    .menu-items{
+        padding-top: 55px;
+        display: block;
+        position:absolute;
+        background-color: #453C67;
+        max-width:700px;
+        height: 1000px;
+        top: 0;
+        right:-700px;
+        transition: 0.3s ease-in;
+   
+
+        
+    }
+    .section-title{
+        font-size: 2rem;
+    }
+    .slider-wrapper {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .swiper-button-next::after, .swiper-button-prev::after {
+        display:none;
+      }
+}
+
+@media screen and (max-width:568px) {
+    .footer-title{
+        margin: 0.95rem;
+    }
+    .header-btn{
+        width: 5.5rem;
+        font-size: 0.8rem;
+    }
+    .logo{
+        font-size: 1.2rem;
+    }
+    
+    .nav{
+        justify-content: space-between;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.09);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        padding: 15px 15px;
+        color: #F9F5EB;
+        width: 100%;
+    }
+}
